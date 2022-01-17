@@ -295,5 +295,3 @@ Advantages of refactored VBA:
 
 Disadvantages of refactored VBA:
 * Possibly could be further optimized to be faster.
-
-
