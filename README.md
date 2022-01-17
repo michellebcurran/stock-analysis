@@ -12,12 +12,16 @@ AllStocksAnalysis() macro was already created and functioning to analyze dozens 
 ## Results
 ### Analysis
 The stocks performed, overall, significantly better in 2017 than in 2018. 
+In 2017, overall, stocks performed well. The only negative return was for stock TERP with a total daily volume of 139,402,800 and return of -7.2%. All other stocks performed well, with positive returns ranging from 5.5% to 199.4%.
 
-The original script executed for 2017: seconds
-    and for 2018: seconds
-The refactored script, as seen in the images below, executed for 2017: seconds
-    and for 2018: seconds
+In 2018, overall, stocks performed poorly. ENPH and RUN were the only stocks with a positive return, 81.9% and 84.0% respectively. They also have a similar total daily volume, with ENPH at 607,473,500 and RUN at 502,757,100. All other stocks performed poorly with negative returns ranging from -3.5% to -62.6%.
 
+The original script executed for 2017: 0.5390625 seconds
+    and for 2018: 0.51625 seconds
+The refactored script, as seen in the images below, executed for 2017: 0.1015625 seconds
+    and for 2018: 0.1015625 seconds
+
+In conclusion, the refactored analysis executes significantly faster than the original code. 
 
 ### Images 
 
@@ -267,5 +271,27 @@ Refactored code
 
 ## Summary
 ### Advantages and disadvantages of refactoring code in general.
+Advantages of refactoring code:
+* Executes faster for large data sets (more useful)
+* Neater / easier visually
+* Higher quality code
+
+Disadvantages of refactoring code:
+* Can be a difficult or long process.
+* Potential for errors causing code to no longer work.
+
 ### Advantages and disadvantages of the original and refactored VBA script.
+Advantages of original:
+* More intuitive, elementary style coding. 
+* Familiar
+Disadvantages of original:
+* Only handles dozens of stocks, need thousands to execute quickly, potential time issue / making code not so useful
+
+Advantages of refactored VBA:
+* Executes much faster, more useful for realistic data application (thousands of stocks)
+* Cleaner more professional code
+
+Disadvantages of refactored VBA:
+* Possibly could be further optimized to be faster.
+
 
