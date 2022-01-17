@@ -7,7 +7,12 @@ Module 2 Challenge README with Deliverable 1: Refactor VBA Code and Measure Perf
 
 ## Results
 ### Analysis
-### Images
+### Images 
+
+![VBA_Challenge_2017 Image](Resources/VBA_Challenge_2017.png)
+
+![VBA_Challenge_2018 Image](Resources/VBA_Challenge_2018.png)
+
 ### Code`
     Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
