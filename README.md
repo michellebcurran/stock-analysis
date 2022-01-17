@@ -284,8 +284,10 @@ Disadvantages of refactoring code:
 Advantages of original:
 * More intuitive, elementary style coding. 
 * Familiar
+
 Disadvantages of original:
 * Only handles dozens of stocks, need thousands to execute quickly, potential time issue / making code not so useful
+
 
 Advantages of refactored VBA:
 * Executes much faster, more useful for realistic data application (thousands of stocks)
