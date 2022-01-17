@@ -21,7 +21,7 @@ The original script executed for 2017: 0.5390625 seconds
 The refactored script, as seen in the images below, executed for 2017: 0.1015625 seconds
     and for 2018: 0.1015625 seconds
 
-In conclusion, the refactored analysis executes significantly faster than the original code. 
+In conclusion, the refactored analysis executes significantly faster than the original code, through looping all the data at once.
 
 ### Images 
 
