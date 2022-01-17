@@ -4,13 +4,21 @@ Module 2 Challenge README with Deliverable 1: Refactor VBA Code and Measure Perf
 ## Overview of Project 
 ### Purpose
 
-The purpose of Module 2 Challenge is to improve a working VBA script (macro) that produces an analysis of all stock data in the workbook, computing the Total Daily Volume and Return over the course of the user selected year (2017 or 2018). The working VBA script needs to be modified to execute at a faster pace in order to accomodate for higher volumes of data. Execution of the script would be too long with thousands of stocks.
+The purpose of Module 2 Challenge is to improve the stock analysis: a working VBA script (macro) that produces an analysis of all stock data in the workbook, computing the Total Daily Volume and Return over the course of the user selected year (2017 or 2018). The working VBA script needs to be modified to execute at a faster pace in order to accomodate for higher volumes of data. Execution of the script would be too long with thousands of stocks.
 
 ### Background
 AllStocksAnalysis() macro was already created and functioning to analyze dozens of stocks. This code will be refactored into AllStocksAnalysisRefactored().
 
 ## Results
 ### Analysis
+The stocks performed, overall, significantly better in 2017 than in 2018. 
+
+The original script executed for 2017: seconds
+    and for 2018: seconds
+The refactored script, as seen in the images below, executed for 2017: seconds
+    and for 2018: seconds
+
+
 ### Images 
 
 ![VBA_Challenge_2017 Image](Resources/VBA_Challenge_2017.png)
